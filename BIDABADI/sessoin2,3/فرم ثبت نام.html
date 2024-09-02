@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>فرم ثبت نام</title>
+</head>
+<body>
+<form action="bbbbb.html" method="get" enctype="application/x-www-form-urlencoded" dir="rtl" style="color: blue" >
+  <table border="1" cellpadding="18" cellspacing="0" width="800px"  dir="rtl">
+    <caption> <b>فرم ثبت نام</b></caption>
+    <tr>
+      <td><label for="tx"><b>نام و نام خانوادگی</b></label></td>
+      <td> <input type="text" id="tx" name="tx" placeholder="fill up" required="required"  /> </td>
+    </tr>
+    <tr>
+      <td><label for="em">ایمیل<b></b></label></td>
+      <td> <input type="email" id="em"name="ex" placeholder="fill up" required="required"/> </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="ps"><B>رمز</B></label>
+      </td>
+      <td>
+        <input type="password" name="ps" id="ps" placeholder="fill up" required="required">
+      </td>
+    </tr>
+    <tr>
+      <td><label for="f"><b>رزومه</b></label></td>
+      <td><input type="file" name="f" id="f" accept="application/x-www-form-urlencoded"></td>
+    </tr>
+    <tr>
+      <td><label for="sel"><b>تیم مورد علاقه</b></label></td>
+      <td><select name="sel" id="sel">
+        <optgroup  label="ایرانی">
+          <option value="1">سپاهان</option>
+          <option value="2">پرسپولیس</option>
+          <option value="3">استقلال</option>
+
+        </optgroup>
+      </select> </td>
+    </tr>
+    </table>
+  <label for="tx2"><b>توضیحات بیشتر</b></label> <br/>
+  <textarea id="tx2" name="tx2" rows="20px" cols="40px"></textarea> <br/>
+  <label for="re"></label> <input type="reset" name="re" id="re"/> <br/>
+  <label for="su"></label> <input type="submit" name="su" id="su">
+</form>
+
+</body>
+</html>
